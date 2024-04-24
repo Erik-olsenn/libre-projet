@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet libre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="readme.html" class="nav-link">Readme</a>
+    </nav>
+    <section id="image-section" style="background-image: url('images/bg2.jpg');">
+        <button id="prevBtn">&#10094;</button>
+        <button id="nextBtn">&#10095;</button>
+        <h2 class="image-title">Un algorithme génétique</h2>
+        <div class="button-container">
+            <button class="image-button">Télécharger</button>
+            <button class="image-button" id="learnMoreBtn">Savoir plus</button>
+        </div>
+    </section>
+    <section id="content-section">
+        <div class="content-container left-content">
+            <h3>Algorithme NEAT</h3>
+            <p>L'algorithme NEAT (de l'anglais Neuroevolution of augmenting topologies) 
+            est un algorithme génétique utilisé pour la génération de réseaux de neurones 
+            artificiels développé par Ken Stanley en 2002 lorsqu'il était à l'Université du Texas à Austin. 
+            L'algorithme consiste à modifier à la fois les paramètres de pondération et les structures 
+            des réseaux de neurones afin d'essayer de trouver un équilibre entre la performance des 
+            solutions obtenues et leur diversité. Il est basé sur trois techniques 
+            principales : 1. suivre les modifications réalisées sur chaque gène afin de 
+            permettre des croisements entre les différentes topologies, 2. appliquer des mutations 
+            (l'évolution des espèces) pour conserver les innovations, 
+            et 3. développer les topologies pas-à-pas à partir de structures initiales simples 
+            ("complexification").</p>
+        </div>
+        <div class="content-container right-content">
+            <img src="images/neat.png" alt="Image">
+        </div>
+    </section>
+    <footer>
+        <p>Copyright 2024 Erik Olsen</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
